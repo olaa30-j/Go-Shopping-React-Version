@@ -1,0 +1,11 @@
+.card_container{
+    width:389px;
+    max-width: 100%;
+    height: auto;
+    padding: 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 90px rgba(0, 0, 0, 0.06);
+    border-radius: 10px
+}
+
+

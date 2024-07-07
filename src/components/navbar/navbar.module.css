@@ -1,0 +1,54 @@
+header{
+    padding: 35px 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #484848;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+nav ul li{
+    color: #484848;
+    font-weight: 400;
+    line-height: 24px;
+} 
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2{
+    color: #484848;
+    font-family: 'Volkhov' !important;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+}
+
+.btn{
+    padding: 18px 45.5px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signin{
+    color: #484848;
+}
+
+.signup{
+    background-color: var(--text-color);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.15);
+}
+

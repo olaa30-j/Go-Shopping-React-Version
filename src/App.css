@@ -1,0 +1,37 @@
+
+:root{
+  --bg-color: #ffffff;
+
+  --btn-active: #000000;
+  --btn-not-active-bg:#FAFAFA;
+  --btn-text-color: #8A8A8A;
+  --text-color:black;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  color:  var(--text-color);
+  font-family: 'Poppins';
+}
+
+body.theme-dark{
+  --bg-color: #000;
+  --text-color:white;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.section{
+  margin-bottom: 150px;
+}
+
